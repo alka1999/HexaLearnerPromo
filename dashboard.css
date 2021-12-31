@@ -45,3 +45,30 @@
 .sub-col2{
     height: 60px;
 }
+.img{
+    width: 13%;
+    height: auto;
+    border-radius: 50%;
+}
+.icon{
+    width: 2%;
+}
+.review-section{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+.slider{
+    margin-top: 10%;
+}
+.plan-sub-col{
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+}
+.plan-btn{
+    width: 100%;
+}
+.form{
+    width: 80%;
+}
