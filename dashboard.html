@@ -12,6 +12,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
   <title>Document</title>
 </head>
 
@@ -26,23 +30,31 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item ms-5">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
-          </li>
-          <li class="nav-item ms-5">
-            <a class="nav-link active" aria-current="page" href="#">PLANS</a>
-          </li>
+      <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
 
-        </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-light" type="submit">Book a Demo</button>
+
+          <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+            <li class="nav-item ms-5">
+              <a class="nav-link active" aria-current="page" href="dashboard.html">HOME</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="nav-link active" aria-current="page" href="#plans">PLANS</a>
+            </li>
+
+          </ul>
+
+          <a class="btn btn-outline-light" href="#book-demo">
+            Book a Demo
+          </a>
+
           <button type="button" class=" btn text-primary bg-light is-rounded ms-5 rounded-pill">Get Started for
             Free</button>
-          <a href="#features">
-            <button class="button ms-5 me-5">Features</button>
+
+          <a class="button ms-5 me-5" href="#features">
+            Features
           </a>
+
         </form>
       </div>
     </div>
@@ -52,7 +64,7 @@
   <div class="container mycontainer1">
     <div class="row align-items-start">
       <div class="colss col d-flex justify-content-center">
-        <video class="vid" width="450" height="250" controls>
+        <video class="vid" width="550" height="300" controls>
           <source src="mov_bbb.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -204,7 +216,7 @@
     </div>
   </div>
 
-  <!-- sponsers column code -->
+  <!-- Features column code -->
   <div class=" mt-6 text-center bg-light p-5 " id="features">
     <h1 class="bg-info p-3 rounded">Featured In</h1>
     <div class="container mt-5 ms-5 me-5">
@@ -371,15 +383,6 @@
             </div>
           </button>
 
-          <button type="button" class="btn btn-light text-start shadow p-3 py-1 m-4 mb-1 bg-body rounded ">
-            <img
-              src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-family-family-icongeek26-linear-colour-icongeek26-6.png" />
-            <b class="fs-2">Parents</b>
-            <div>
-
-              Responsible parenting: Stay closely connected with the student's learning journey
-            </div>
-          </button>
         </div>
         <div class="col slider">
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -404,7 +407,7 @@
   </div>
 
 
-  <div class="container mt-5 mb-5 ps-5 pe-5">
+  <div class="container mt-5 mb-5 ps-5 pe-5" id="plans">
     <h1 class="text-center">Plans</h1>
     <div class="row align-items-start text-center">
       <div class="col">
@@ -415,35 +418,35 @@
 
 
           <div class="fs-6">
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
@@ -451,44 +454,44 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col">
         <div class=" bg-light shadow-lg p-3  bg-body rounded plan-sub-col">
-          
+
           <h3 class="text-start card-title">Advanced</h3>
           <p class="text-start card-subtitle mb-3"> Paid Plan</p>
-          
-          
+
+
           <div class="fs-6">
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
@@ -499,41 +502,41 @@
 
       <div class="col">
         <div class=" bg-light shadow-lg p-3  bg-body rounded plan-sub-col">
-          
+
           <h3 class="text-start card-title">Pro</h3>
           <p class="text-start card-subtitle mb-3"> Comming soon</p>
 
-          
+
           <div class="fs-6">
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
-            <div >
+            <div>
               <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
               Teachmint Application for teachers and students
             </div>
@@ -545,12 +548,13 @@
   </div>
 
   <!-- Demo booking form code -->
-  <div class="bg-light ">
+  <div class="bg-light " id="book-demo">
     <div class="container mycontainer1">
       <div class="row align-items-start">
 
         <div class="col p-5">
           <div class="form p-5 shadow p-3 mb-5 rounded m-5">
+            <h2 class="mb-3">Book a Demo Now! </h2>
             <div class="mb-3">
               <label for="name" class="form-label">Your Name</label>
               <input type="text" class="form-control" id="name" placeholder="Your Name Here">
@@ -560,7 +564,7 @@
               <input type="text" class="form-control" id="instituteName" placeholder="Your Institute Name Here">
             </div>
             <div class="mb-3">
-              <label for="phoneNo" class="form-label">Your Phona No.</label>
+              <label for="phoneNo" class="form-label">Your Phone No.</label>
               <input type="number" class="form-control" id="phoneNo" placeholder="Your Phona No. Here">
             </div>
             <div class="mb-3">
@@ -572,16 +576,18 @@
                 <option value="3">Administrator</option>
               </select>
             </div>
-            
-            <button class="btn btn-primary rounded-pill plan-btn mt-4" type="button">Submit</button>
-    
+
+            <button class="btn btn-primary rounded-pill plan-btn mt-4" type="button"
+              onclick="writeUserData()">Submit</button>
+
+           
           </div>
         </div>
 
         <div class="col text-center mycontainer1">
-          <img class="mt-5" src="book-img.png" alt="" width="90%" height="auto">
+          <img class="demo-img" src="book-img.png" alt="" width="90%" height="auto">
         </div>
-        
+
       </div>
     </div>
   </div>
@@ -590,26 +596,170 @@
   <div class="bg-dark text-light text-center p-5">
     <div class="container">
       <div class="row align-items-start">
+        <div class="col ">
+          <div class="first-sec">
+            <h1 class="fs-1">ONEED</h1>
+            <div class="d-flex justify-content-center text-start mt-3">
+              <p>Teachmint is an education infrastructure provider and India’s largest teaching platform.</p>
+            </div>
+            <div>
+              <a
+                href=" https://www.linkedin.com/search/results/all/?keywords=hexadigi%20software%20pvt.%20ltd.&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=c257a078-c010-4bdf-82c7-94832e8ecc36&sid=xo!">
+                <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40"
+                  viewBox="0 0 172 172" style=" fill:#000000;">
+                  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                      <path
+                        d="M86,6.88c-43.65603,0 -79.12,35.46397 -79.12,79.12c0,43.65603 35.46397,79.12 79.12,79.12c43.65603,0 79.12,-35.46397 79.12,-79.12c0,-43.65603 -35.46397,-79.12 -79.12,-79.12zM86,13.76c39.93779,0 72.24,32.30221 72.24,72.24c0,39.93779 -32.30221,72.24 -72.24,72.24c-39.93779,0 -72.24,-32.30221 -72.24,-72.24c0,-39.93779 32.30221,-72.24 72.24,-72.24zM55.04,41.28c-5.65883,0 -10.32,4.66117 -10.32,10.32c0,5.65883 4.66117,10.32 10.32,10.32c5.65883,0 10.32,-4.66117 10.32,-10.32c0,-5.65883 -4.66117,-10.32 -10.32,-10.32zM55.04,48.16c1.9406,0 3.44,1.4994 3.44,3.44c0,1.9406 -1.4994,3.44 -3.44,3.44c-1.9406,0 -3.44,-1.4994 -3.44,-3.44c0,-1.9406 1.4994,-3.44 3.44,-3.44zM48.16,65.36c-1.89978,0.00019 -3.43981,1.54022 -3.44,3.44v51.6c0.00019,1.89978 1.54022,3.43981 3.44,3.44h13.76c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-51.6c-0.00019,-1.89978 -1.54022,-3.43981 -3.44,-3.44zM75.68,65.36c-1.89978,0.00019 -3.43981,1.54022 -3.44,3.44v51.6c0.00019,1.89978 1.54022,3.43981 3.44,3.44h13.76c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-25.8c0,-4.74563 3.85437,-8.6 8.6,-8.6c4.74563,0 8.6,3.85437 8.6,8.6v8.6v17.2c0.00019,1.89978 1.54022,3.43981 3.44,3.44h13.76c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-29.24c0,-14.20854 -11.59146,-25.8 -25.8,-25.8c-4.42546,0 -8.39448,1.43156 -12.04,3.4064c-0.01861,-1.88665 -1.55326,-3.40631 -3.44,-3.4064zM51.6,72.24h6.88v44.72h-6.88zM79.12,72.24h6.88v2.80844c0.00017,1.37921 0.824,2.62502 2.09306,3.16514c1.26906,0.54012 2.73802,0.27014 3.73209,-0.68592c3.40844,-3.27421 7.99223,-5.28765 13.09485,-5.28765c10.49066,0 18.92,8.42934 18.92,18.92v25.8h-6.88v-13.76v-8.6c0,-8.49837 -6.98163,-15.48 -15.48,-15.48c-8.49837,0 -15.48,6.98163 -15.48,15.48v22.36h-6.88z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+
+              <a href="">
+                <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40"
+                  viewBox="0 0 172 172" style=" fill:#000000;">
+                  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g id="original-icon" fill="#ffffff">
+                      <path
+                        d="M86,10.32c-41.75623,0 -75.68,33.92377 -75.68,75.68c0,37.90582 27.95871,69.27594 64.37235,74.7461l3.95062,0.59797v-59.63563h-17.8786v-12.10719h17.8786v-16.07797c0,-9.9006 2.37582,-16.42129 6.3089,-20.51235c3.93309,-4.09105 9.74446,-6.15437 17.83156,-6.15437c6.46654,0 8.98224,0.39181 11.37485,0.68531v9.91016h-8.4186c-4.77673,0 -8.69574,2.66507 -10.72984,6.21484c-2.0341,3.54978 -2.66735,7.78817 -2.66735,12.10719v13.82047h21.06328l-1.87453,12.10719h-19.18875v59.73641l3.9036,-0.53078c36.93123,-5.00873 65.4339,-36.631 65.4339,-74.90735c0,-41.75623 -33.92377,-75.68 -75.68,-75.68zM86,17.2c38.03801,0 68.8,30.76199 68.8,68.8c0,33.47048 -23.95685,60.99738 -55.5775,67.19422v-44.6125h18.20781l3.99765,-25.86719h-22.20547v-6.94047c0,-3.56891 0.65299,-6.76666 1.7536,-8.68735c1.1006,-1.92069 2.16152,-2.75469 4.76359,-2.75469h15.2986v-23.01844l-2.98313,-0.40313c-2.06328,-0.27919 -6.77392,-0.9339 -15.27172,-0.9339c-9.29866,0 -17.28029,2.53306 -22.79,8.26406c-5.50971,5.731 -8.23047,14.26461 -8.23047,25.28265v9.19797h-17.8786v25.86719h17.8786v44.39078c-31.11251,-6.59066 -54.56297,-33.87112 -54.56297,-66.97922c0,-38.03801 30.76199,-68.8 68.8,-68.8z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+
+              <a href="">
+                <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40"
+                  viewBox="0 0 172 172" style=" fill:#000000;">
+                  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                      <path
+                        d="M55.04,10.32c-24.65626,0 -44.72,20.06374 -44.72,44.72v61.92c0,24.65626 20.06374,44.72 44.72,44.72h61.92c24.65626,0 44.72,-20.06374 44.72,-44.72v-61.92c0,-24.65626 -20.06374,-44.72 -44.72,-44.72zM55.04,17.2h61.92c20.9375,0 37.84,16.9025 37.84,37.84v61.92c0,20.9375 -16.9025,37.84 -37.84,37.84h-61.92c-20.9375,0 -37.84,-16.9025 -37.84,-37.84v-61.92c0,-20.9375 16.9025,-37.84 37.84,-37.84zM127.28,37.84c-3.79972,0 -6.88,3.08028 -6.88,6.88c0,3.79972 3.08028,6.88 6.88,6.88c3.79972,0 6.88,-3.08028 6.88,-6.88c0,-3.79972 -3.08028,-6.88 -6.88,-6.88zM86,48.16c-20.85771,0 -37.84,16.98229 -37.84,37.84c0,20.85771 16.98229,37.84 37.84,37.84c20.85771,0 37.84,-16.98229 37.84,-37.84c0,-20.85771 -16.98229,-37.84 -37.84,-37.84zM86,55.04c17.13948,0 30.96,13.82052 30.96,30.96c0,17.13948 -13.82052,30.96 -30.96,30.96c-17.13948,0 -30.96,-13.82052 -30.96,-30.96c0,-17.13948 13.82052,-30.96 30.96,-30.96z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+
+              <a href="">
+                <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                  viewBox="0 0 172 172" style=" fill:#000000;">
+                  <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path>
+                    <g fill="#ffffff">
+                      <path
+                        d="M160.53333,39.77213c-5.4868,2.43667 -11.38067,4.0764 -17.56693,4.816c6.31813,-3.784 11.1628,-9.77533 13.44467,-16.91907c-5.90533,3.50307 -12.4528,6.04867 -19.42453,7.42467c-5.57853,-5.94547 -13.52493,-9.66067 -22.31987,-9.66067c-16.8904,0 -30.5816,13.69693 -30.5816,30.5816c0,2.39653 0.2752,4.73573 0.7912,6.966c-25.41587,-1.2728 -47.94787,-13.4504 -63.038,-31.9576c-2.62587,4.51787 -4.13373,9.7696 -4.13373,15.38253c0,10.60667 5.39507,19.9692 13.59947,25.45027c-5.01093,-0.16053 -9.72947,-1.53653 -13.85173,-3.82413c0,0.13187 0,0.25227 0,0.38413c0,14.82067 10.53787,27.18173 24.53293,29.98533c-2.5628,0.69947 -5.26893,1.07213 -8.06107,1.07213c-1.96653,0 -3.8872,-0.19493 -5.75053,-0.54467c3.89293,12.14893 15.1876,20.99547 28.5692,21.242c-10.46333,8.2044 -23.65,13.09493 -37.98333,13.09493c-2.46533,0 -4.902,-0.14333 -7.29853,-0.43c13.5364,8.67453 29.60693,13.73707 46.88147,13.73707c56.25547,0 87.00907,-46.60053 87.00907,-87.0148c0,-1.3244 -0.02867,-2.64307 -0.086,-3.956c5.97987,-4.3172 11.16853,-9.7008 15.26787,-15.82973z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
         <div class="col">
-          <h1 class="fs-1">ONEED</h1>
-          <div class="d-flex justify-content-center text-start">
-            <p>Teachmint is an education infrastructure provider and India’s largest teaching platform.</p>
+
+          <h3>Links</h3>
+          <div class="mt-3">
+            <a href="">
+              Home
+            </a>
+            <br>
+            <br>
+            <a href="">
+              Plans
+            </a>
+            <br>
+            <br>
+            <a href="">
+              Blogs
+            </a>
+            <br>
+            <br>
+            <a href="">
+              terms of Services
+            </a>
           </div>
         </div>
         <div class="col">
-          
-          <h3>Links</h3>
-          <p>Home</p>
-          <p>Plans</p>
-          <p>Blogs</p>
-          <p>terms of Services</p>
-        </div>
-        <div class="col">
-          One of three columns
+          <div class="first-sec">
+            <h3>Contact us</h3>
+
+            <div class="row mb-3 mt-3 text-start">
+              <a
+                href="https://www.google.com/maps/place/Hexadigi+Software+Pvt.+Ltd./@18.7209928,73.66559,17z/data=!3m1!4b1!4m5!3m4!1s0x3bc2b1932938b5fd:0x38b95a5d2e2edca!8m2!3d18.7209928!4d73.6677787">
+                <label for="colFormLabel1">
+                  <i class="fa fa-map-marker" style="color: aliceblue;"></i>
+
+
+                </label>
+                <span class="ms-3" id="colFormLabel1">
+
+                  Enzyme Park View #1604, 1st Floor 25th Main, 22nd Cross Rd, Sector 2, HSR Layout, Bengaluru,
+                  Karnataka
+                  560102
+                </span>
+              </a>
+            </div>
+
+            <div class="row mb-3 text-start">
+              <a href="">
+                <label for="colFormLabel2">
+
+                  <i class="fa fa-envelope-o" style="color: aliceblue; size: 100px;"></i>
+
+                </label>
+                <span class="ms-3" id="colFormLabel2">
+                  hexadigi@gmail.com
+                </span>
+              </a>
+            </div>
+
+            <div class="row mb-3 text-start">
+              <a href="">
+                <label for="colFormLabel3">
+                  <i class="fa fa-phone" style="color: aliceblue;"></i>
+
+                </label>
+                <span class="ms-3" id="colFormLabel3">
+                  9284069194
+                </span>
+              </a>
+            </div>
+
+
+
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <script type="text/javascript" >
+    
+    function writeUserData(){
+      alert('hi');
+    }
+  </script>
 </body>
+
 
 </html>
