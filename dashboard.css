@@ -21,7 +21,7 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .colss{
-    margin-top: 20px;
+    margin-top: 5%;
 }
 .row>* {
     flex-shrink: 0;
@@ -59,6 +59,10 @@
     text-align: center;
     margin: auto;
 }
+.slide-show-img{
+    width: 80%;
+    height: 300px;
+}
 .slider{
     margin-top: 7%;
 }
@@ -85,8 +89,137 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+.hide-for-desk{
+    display: none;
+}
+.margin-t{
+    margin-top: 5%;
+}
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 0;
     align-items: center;
+}
+.logo{
+    margin-left: 2%;
+}
+.padding-5{
+    padding: 10%;
+}
+.nav-content{
+    text-align: right;
+}
+.margin-5{
+    margin: 5%;
+}
+@media (max-width:400px){
+    .mob-nav{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .nav-content{
+        
+        text-align: center;
+    }
+    .mob-nav-btn{
+        margin: 5%;
+    }
+    .vid{
+        margin: 5%;
+        margin-top: 0%;
+        width: 300px;
+        height: auto;
+    }
+    
+    .mycontainer1{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .mob-get-started-btn{
+        width: 100%;
+    }
+    .sub-cols {
+        margin: 8% 0%;
+        text-align: center;
+    }
+    .mob-get-started-btn{
+        width: 100%;
+    }
+    
+    .mob-number-show-div{
+        width: 300px;
+    }
+    .hide-for-mob{
+        display: none;
+    }
+    .mob-row{
+        display: block;
+    }
+    .sub-col2{
+        height: auto;
+    }
+    .padding-5{
+        padding: 0%;
+    }
+    .margin-t{
+        margin-top: 5%;
+    }
+    .mob-container{
+        width: 80%;
+        margin: auto;
+    }
+    .mob-img{
+        width: 300px;
+        height: auto;
+        margin: auto;
+    }
+    .hide-for-desk{
+        display: block;
+    }
+    .mob-img-div{
+        margin-bottom: 20%;
+    }
+    .icon{
+        width: 10%;
+    }
+    .review-section{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .img{
+        width: 40%;
+        height: auto;
+        border-radius: 50%;
+    }
+    .plan-sub-col{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .slide-show-img{
+        width: 100%;
+        height: 200px;
+        margin: auto;
+    }
+    .buttons-section{
+        width: 300px;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 300px;
+        /* overflow: hidden; */
+    }
+    .slider{
+        width: 300px;
+        margin-left: 8%;
+    }
+    .first-sec{
+        width: 100%;
+        margin: auto;
+    }
+    .mob-footer{
+        margin-top: 10%;
+    }
 }
