@@ -1,5 +1,25 @@
 .body{
     background-color: #E6F0FC;
+
+}
+.font-family{
+    font-family: 'Poppins';
+}
+.diff-color{
+    background-color: #071a2d;
+}
+.get-started-free{
+    background-color: #ed4726;
+    color: #ffffff;
+}
+.last-item{
+    margin-right: 100px;
+}
+.get-started-free:hover{
+    color: #ffffff;
+}
+#p{
+    font-size: 16px;
 }
 .button{
     background-color: #E6F0FC;
@@ -20,6 +40,15 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.org-color{
+    color: #ff5c03;
+}
+.h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: 'Poppins';
+}
 .colss{
     margin-top: 5%;
 }
@@ -31,13 +60,20 @@
     padding-left: calc(var(--bs-gutter-x) * .5);
     /* margin-top: var(--bs-gutter-y); */
 }
+.new-img{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+}
 .mycontainer1{
     width: 75%;
     margin-top: 60px;
 }
 .para-heading{
+    color: #ffffff;
     width: 80%;
     margin: auto;
+    margin-top: 10%;
 }
 .sub-cols{
     margin: 0px 5%;
@@ -62,10 +98,9 @@
 .slide-show-img{
     width: 80%;
     height: 300px;
+    margin-top: 15%;
 }
-.slider{
-    margin-top: 7%;
-}
+
 .plan-sub-col{
     width: 75%;
     margin: auto;
@@ -84,6 +119,10 @@
     width: 60%;
     margin: auto;
 }
+.logo{
+    width: 25%;
+    margin-left: 2%;
+}
 
 a{
     text-decoration: none;
@@ -100,13 +139,14 @@ a{
     flex-grow: 0;
     align-items: center;
 }
-.logo{
-    margin-left: 2%;
-}
+
 .padding-5{
     padding: 10%;
 }
-
+.nav-float{
+    position:fixed;
+    background-color: #071a2d;
+}
 .float{
 	position:fixed;
 	width:60px;
@@ -126,20 +166,30 @@ a{
 	margin-top:16px;
 }
 
-
+.about-us{
+    width: 80%;
+    margin-left: 5%;
+}
 .nav-content{
     text-align: right;
 }
 .margin-5{
     margin: 5%;
 }
-@media (max-width:400px){
+@media (max-width: 500px){
     .mob-nav{
         width: 100%;
     }
-    .logo{
-        margin-left: 10px;
+    .para-heading{
+        color: #ffffff;
+        width: 70%;
+        margin: auto;
     }
+    .logo{
+        margin-left: 2px;
+        width: 70px;
+    }
+    
     .nav-content{
         
         text-align: center;
@@ -147,6 +197,7 @@ a{
     .mob-nav-btn{
         margin: 5%;
     }
+    
     .vid{
         margin: 5%;
         margin-top: 0%;
@@ -224,23 +275,27 @@ a{
         height: 200px;
         margin: auto;
     }
-    .buttons-section{
-        width: 300px;
-    }
     .carousel-inner {
         position: relative;
-        width: 300px;
-        /* overflow: hidden; */
+        width: 80%;
+        overflow: hidden;
+        margin: 5% auto;
     }
-    .slider{
-        width: 300px;
-        margin-left: 8%;
-    }
+    
     .first-sec{
         width: 100%;
         margin: auto;
     }
     .mob-footer{
         margin-top: 10%;
+    }
+    .my-row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: block;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
     }
 }

@@ -8,7 +8,7 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="index.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
@@ -16,127 +16,146 @@
   </script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="module" src="dashboard.js"></script>
-  
+  <script type="module" src="index.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <title>HEXALEARNER: Best LMS For Teaching</title>
 </head>
 
 <body class="body">
+  <!-- floating whatsapp help button -->
   <a href="https://wa.me/message/RMSCUSYY2JPEA1" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
-    </a>
+  </a>
   <!-- code for top navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mob-nav">
-    <div class="container-fluid">
-      <a class="navbar-brand logo" href="#">
-        <h2>HEXALEARNER</h2>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav-content" id="navbarSupportedContent">
+  <div class="diff-color pb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark mob-nav nav-float">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img class="logo" src="./assets/hexalearner-wbg.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-content" id="navbarSupportedContent">
 
-        <form>
+          <form>
 
-          <ul class="navbar-nav me-5 mb-2 mb-lg-0">
-            <li class="nav-item ms-5">
-              <a class="nav-link active" aria-current="page" href="dashboard.html">HOME</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="nav-link active" aria-current="page" href="#about-us">ABOUT US</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="nav-link active" aria-current="page" href="#plans">PLANS</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="nav-link active" aria-current="page" href="#plans">BLOGS</a>
-            </li>
-            <li class="nav-item ms-5 hide-for-mob">
-              <a class="btn btn-outline-light mob-nav-btn " href="#book-demo">
-                Book a Demo
-              </a>
-            </li>
-            <li class="nav-item ms-5">
-              <a href="#book-demo" class=" mob-nav-btn btn text-primary bg-light is-rounded rounded-pill">Get Started
-                for
-                Free</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="button mob-nav-btn" href="#features">
-                Features
-              </a>
+            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+              <li class="nav-item ms-3">
+                <a class="nav-link active font-family" aria-current="page" href="index.html">
+                  <b>HOME</b>
+                </a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active font-family" aria-current="page" href="#about-us">
+                  <b>ABOUT US</b>
+                </a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active font-family" aria-current="page" href="#plans">
+                  <b>PLANS</b>
+                </a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link active font-family" href="#features">
+                  <b>FEATURES</b>
+                </a>
 
-            </li>
-          </ul>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active font-family" href="#plans">
+                  <b>BLOGS</b>
+                </a>
+
+              </li>
+              <li class="nav-item ms-2">
+                <a class="get-started-free mob-nav-btn btn is-rounded rounded-pill font-family" href="#book-demo">
+                  Book a Demo
+                </a>
+              </li>
+              <li class="nav-item ms-3 last-item">
+                <a href="#book-demo" class="font-family get-started-free mob-nav-btn btn is-rounded rounded-pill">Get
+                  Started
+                  for
+                  Free</a>
+              </li>
+
+            </ul>
 
 
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- code for video and side heading and paragraph -->
-  <div class="container mycontainer1">
-    <div class="row align-items-start">
-      <div class="colss col d-flex justify-content-center">
-        <video class="vid" width="550" height="300" controls>
-          <source src="./assets/mov_bbb.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class=" colss col d-flex justify-content-center mob-para-heading">
-        <div class="para-heading ">
-          <h4>LMS for Institutes</h4>
-          <h1>Digitize your institute and become future ready</h1>
-          <br>
-          <a href="#book-demo"
-            class="mob-get-started-btn btn text-primary bg-light is-rounded rounded-pill shadow mb-5 bg-body rounded">Get
-            Started for
-            Free</a>
+    <!-- code for video and side heading and paragraph -->
+
+    <div class="container">
+      <div class="my-row row align-items-start">
+        <div class="colss col d-flex justify-content-center">
+          <img src="./assets/clip-girl-study-1.png" class="vid" width="80%" height="auto" alt="" />
+        </div>
+        <div class=" colss col d-flex justify-content-center mob-para-heading">
+          <div class="para-heading ">
+            <h1 class="h1">Your Education Institute deserves the best!</h1>
+            <h3 class="h1"> <strong class="org-color">Digitize your institute</strong> and become future ready</h3>
+            <br>
+            <p id="p" class="font-family">
+              <b>One powerful solution to manage, deliver, and track your Learners Performance
+                HexaLearner Learning Management System (LMS) unites, coordinates, and simplifies training delivery
+                throughout your entire network, making it your company's most valuable competitive advantage.</b>
+            </p>
+            <br>
+            <a href="#book-demo"
+              class="mob-get-started-btn btn get-started-free is-rounded rounded-pill shadow mb-5 rounded">Get
+              Started for
+              Free</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- code for horizontal options showing number of our member like teachers/schools/.. -->
-  <div class="container mycontainer1 bg-light shadow p-3 mb-5 bg-body rounded mob-number-show-div">
-    <div class="row align-items-start mob-row">
-      <div class="col sub-cols">
-        <a href="">
-          <img src="https://img.icons8.com/fluency/48/000000/school-building.png" />
-        </a>
-        <br>
-        <b>4,000+ </b>
-        <br>
-        Schools/Institutions
-      </div>
-      <div class="col sub-cols">
-        <a href="">
-          <img src="https://img.icons8.com/emoji/48/000000/woman-teacher.png" />
-        </a>
-        <br>
-        <b>10,000+ </b>
-        <br>
-        Teachers
-      </div>
-      <div class="col sub-cols">
-        <a href="">
-          <img src="https://img.icons8.com/color-glass/48/000000/students.png" />
-        </a>
-        <br>
-        <b>3,50,000+ </b>
-        <br>
-        Students
-      </div>
-      <div class="col sub-cols">
-        <a href="">
-          <img src="https://img.icons8.com/color/48/000000/content.png" />
-        </a>
-        <br>
-        <b>3,00,000+ </b>
-        <br>
-        Learning Content
+    <!-- code for horizontal options showing number of our member like teachers/schools/.. -->
+    <div class="container mycontainer1 bg-light shadow p-3 mb-5 bg-body rounded mob-number-show-div">
+      <div class="row align-items-start mob-row">
+        <div class="col sub-cols">
+          <a href="">
+            <img src="https://img.icons8.com/fluency/48/000000/school-building.png" />
+          </a>
+          <br>
+          <br>
+          <h3>
+            Schools/Institutions
+          </h3>
+        </div>
+        <div class="col sub-cols">
+          <a href="">
+            <img src="https://img.icons8.com/emoji/48/000000/woman-teacher.png" />
+          </a>
+          <br>
+
+          <br>
+          <h3>Teachers</h3>
+        </div>
+        <div class="col sub-cols">
+          <a href="">
+            <img src="https://img.icons8.com/color-glass/48/000000/students.png" />
+          </a>
+          <br>
+
+          <br>
+          <h3>Students</h3>
+        </div>
+        <div class="col sub-cols">
+          <a href="">
+            <img src="https://img.icons8.com/color/48/000000/content.png" />
+          </a>
+          <br>
+
+          <br>
+          <h3>Learning</h3>
+        </div>
       </div>
     </div>
   </div>
@@ -162,7 +181,7 @@
             </div>
           </div>
           <a href="#book-demo"
-            class="mob-get-started-btn btn mt-4 text-primary bg-light is-rounded rounded-pill shadow mb-5 bg-body rounded">Get
+            class="mob-get-started-btn btn mt-4 get-started-free is-rounded rounded-pill shadow mb-5 rounded">Get
             Started for
             Free</a>
         </div>
@@ -192,7 +211,7 @@
             </div>
           </div>
           <a href="#book-demo"
-            class="mob-get-started-btn btn mt-4 text-primary bg-light is-rounded rounded-pill shadow mb-5 bg-body rounded">Get
+            class="mob-get-started-btn btn mt-4 get-started-free is-rounded rounded-pill shadow mb-5 rounded">Get
             Started for
             Free</a>
         </div>
@@ -219,7 +238,7 @@
             </div>
           </div>
           <a href="#book-demo"
-            class="mob-get-started-btn btn mt-4 text-primary bg-light is-rounded rounded-pill shadow mb-5 bg-body rounded">Get
+            class="mob-get-started-btn btn mt-4 get-started-free is-rounded rounded-pill shadow mb-5 rounded">Get
             Started for
             Free</a>
         </div>
@@ -259,94 +278,105 @@
             </div>
           </div>
           <a href="#book-demo"
-            class="mob-get-started-btn btn mt-4 text-primary bg-light is-rounded rounded-pill shadow mb-5 bg-body rounded">Get
+            class="mob-get-started-btn btn mt-4 get-started-free is-rounded rounded-pill shadow mb-5 rounded">Get
             Started for
             Free</a>
         </div>
       </div>
       <div class="col mob-img-div d-flex justify-content-center">
-        <img class="mob-img" src="./assets/image3.jpg" alt="">
+        <img class="mob-img new-img" src="./assets/smartmockups_ky49r2bv-removebg-preview.png" alt="">
       </div>
     </div>
   </div>
 
   <!-- About us section -->
-  <div class="bg-light p-5  text-center" id="about-us">
-    <h1 class="bg-info shadow-lg p-3 rounded">About Us</h1>
-    <div class="container mycontainer1 pb-5">
-      
-      We are a Software company providing IT Services and solutions. At Hexadigi we use latest technology to  transform your business. We work together to design and create work that we are proud of for folks that we believe in. 100% client satisfaction is our ultimate goal .We have highly experienced professionals who are developing small enterprise-level applications with the latest technologies available in the market. We have our presence in every possible service that can promote your online business strategy. We offer web designing and development, web hosting, Mobile application development, Internet Marketing, IT Service and Solutions.
+  <div class="p-5 diff-color text-white text-center" id="about-us">
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col font-family about-us">
+          <h1>
+            About <strong class="org-color">Us</strong>
+          </h1>
+          <p>
+            HexaLearner is an Ed-Tech venture that was founded as a subsidiary of Hexadigi Software Pvt. Ltd.
+            After a lot of hard work and perseverance, we were able to give the greatest education solution to our B2B
+            customers and students.
+            Our bespoke white-label online learning platforms provide you with a scalable and cost-effective online learning
+            solution, complete with built-in capabilities to track your learners' progress and outcomes.
+            Our purpose is to empower educators and parents by delivering unique solutions that enable schools simplify
+            operations, train instructors, design curriculum, efficiently handle tests, and expedite parent communication.
+            We bring together two of a student's most important verticals: education and technology. We innovate so Teachers
+            can inspire!
+          </p>
+        </div>
+        <div class="col text-center about-us">
+          <img src="./assets/clip-1032.png" alt="" width="60%">
+        </div>
+
+      </div>
     </div>
     
+    
   </div>
-  
+
 
   <!-- Features column code -->
-  <div class=" mt-6 text-center bg-light p-5 hide-for-mob" id="features">
-    <h1 class="bg-light shadow-lg p-3 rounded">Featured In</h1>
-    <div class="container mt-5 ms-5 me-5">
+  <div class=" mt-6 text-center bg-light p-5 hide-for-mob font-family " id="features">
+    <h1 class="h1" >World-class online learning for Everyone, Everywhere</h1 class="h1">
+    <h4 class="p-2">
+      Wheather you are on boarding, training or educating the next generation HexaLearner 
+      <br>
+      provides everything that your organization needs for unbeatable learning experience
+    </h4>
+    <div class="container mt-5 ms-5 me-5 ">
       <div class="row align-items-start">
         <div class="col">
           <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-notes-high-school-flatart-icons-flat-flatarticons.png"
-              height="auto" width="40%" />
+            
+            <img
+              src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-notes-online-learning-kiranshastry-lineal-color-kiranshastry.png"
+              height="auto" width="20%" />
           </a>
-          <h1 class="fs-2">Notes</h1>
+          <span class="fs-3">Notes</span>
         </div>
         <div class="col">
+          
           <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-meeting-digital-marketing-flatart-icons-flat-flatarticons.png"
-              height="auto" width="40%" />
+            <img
+              src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-meeting-work-at-home-wanicon-lineal-color-wanicon.png"
+              height="auto" width="20%" />
           </a>
-          <h1 class="fs-2">Meeting</h1>
+          <span class="fs-3">Meeting</span>
         </div>
         <div class="col">
+          
           <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/fluency/48/000000/course-assign.png" height="auto" width="40%" />
+            <img
+              src="https://img.icons8.com/dusk/64/000000/course-assign.png" height="auto" width="20%" />
           </a>
-          <h1 class="fs-2">Assignments</h1>
+          <span class="fs-3">Assignments</span>
         </div>
       </div>
     </div>
     <div class="container mt-5 ms-5 me-5">
       <div class="row align-items-start">
         <div class="col">
+          
           <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-quiz-online-learning-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
-              height="auto" width="40%" />
+            <img
+              src="https://img.icons8.com/bubbles/50/000000/checklist.png"
+              height="auto" width="19%" />
           </a>
-          <h1 class="fs-2">Quiz</h1>
+          <span class="fs-3">Quiz</span>
         </div>
         <div class="col">
           <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/external-konkapp-flat-konkapp/64/000000/external-grade-back-to-school-konkapp-flat-konkapp.png"
-              height="auto" width="40%" />
+            
+            <img
+              src="https://img.icons8.com/external-others-phat-plus/64/000000/external-discussion-document-color-line-others-phat-plus-10.png"
+              height="auto" width="13%" />
           </a>
-          <h1 class="fs-2">Grade</h1>
-        </div>
-        <div class="col">
-          <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-discussion-education-and-school-victoruler-flat-victoruler.png"
-              height="auto" width="40%" />
-          </a>
-          <h1 class="fs-2">Discussion</h1>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div class="row align-items-start">
-        <div class="col text-center">
-          <a href="">
-            <img class="shadow-lg p-3 mb-5 bg-body rounded"
-              src="https://img.icons8.com/cute-clipart/64/000000/poll-topic.png" height="auto" width="13%" />
-          </a>
-          <h1 class="fs-2">Polls</h1>
+          <span class="fs-3">Discussion</span>
         </div>
       </div>
     </div>
@@ -356,7 +386,7 @@
   <!-- only shown mobile view Features start -->
 
   <div class="bg-light">
-    <div class=" mt-6 text-center bg-light mob-container hide-for-desk " id="features">
+    <div class=" mt-6 text-center bg-light mob-container hide-for-desk pb-5 " id="features">
       <h1 class="bg-light shadow-lg p-3 rounded">Featured In</h1>
       <div class="container mt-5 ">
         <div class="row align-items-start">
@@ -366,7 +396,7 @@
                 src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-notes-high-school-flatart-icons-flat-flatarticons.png"
                 height="auto" width="50px" />
             </a>
-            <h1 class="fs-5">Notes</h1>
+            <h1 class="fs-6">Notes</h1>
           </div>
           <div class="col">
             <a href="">
@@ -374,11 +404,11 @@
                 src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-meeting-digital-marketing-flatart-icons-flat-flatarticons.png"
                 height="auto" width="50px" />
             </a>
-            <h1 class="fs-5">Meeting</h1>
+            <h1 class="fs-6">Meeting</h1>
           </div>
         </div>
       </div>
-  
+
       <div class="container mt-5 ">
         <div class="row align-items-start">
           <div class="col">
@@ -386,7 +416,7 @@
               <img class="shadow-lg p-1 mb-5 bg-body rounded"
                 src="https://img.icons8.com/fluency/48/000000/course-assign.png" height="auto" width="50px" />
             </a>
-            <h1 class="fs-5">Assignments</h1>
+            <h1 class="fs-6">Assignments</h1>
           </div>
           <div class="col">
             <a href="">
@@ -394,52 +424,32 @@
                 src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-quiz-online-learning-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
                 height="auto" width="50px" />
             </a>
-            <h1 class="fs-5">Quiz</h1>
+            <h1 class="fs-6">Quiz</h1>
           </div>
         </div>
       </div>
-  
+
       <div class="container mt-5 ">
         <div class="row align-items-start">
-          <div class="col">
-            <a href="">
-              <img class="shadow-lg p-1 mb-5 bg-body rounded"
-                src="https://img.icons8.com/external-konkapp-flat-konkapp/64/000000/external-grade-back-to-school-konkapp-flat-konkapp.png"
-                height="auto" width="50px" />
-            </a>
-            <h1 class="fs-5">Grade</h1>
-          </div>
           <div class="col">
             <a href="">
               <img class="shadow-lg p-1 mb-5 bg-body rounded"
                 src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-discussion-education-and-school-victoruler-flat-victoruler.png"
                 height="auto" width="50px" />
             </a>
-            <h1 class="fs-5">Discussion</h1>
+            <h1 class="fs-6">Discussion</h1>
           </div>
         </div>
       </div>
-  
-      <div class="container mt-5 pb-5">
-        <div class="row align-items-start">
-          <div class="col">
-            <a href="">
-              <img class="shadow-lg p-1 mb-5 bg-body rounded"
-                src="https://img.icons8.com/cute-clipart/64/000000/poll-topic.png" height="auto" width="50px" />
-            </a>
-            <h1 class="fs-5">Polls</h1>
-  
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
   <!-- only shown mobile view Features end -->
 
   <!-- client review section -->
-  <div id="carouselExampleControls" class="carousel slide text-center margin-5 " data-bs-ride="carousel">
+  <div id="carouselExampleControls" class="carousel  text-center" data-bs-ride="carousel">
 
-    <div class="carousel-inner ">
+    <div class="carousel-inner py-5">
       <div class="carousel-item active">
         <img class="img" src="./assets/download1.jpg" alt="">
         <h1 class="fs-2">Jenny</h1>
@@ -484,13 +494,13 @@
 
       </div>
     </div>
-    
+
   </div>
 
   <!-- left sided buttons and right side a image slide bar code -->
   <div class="">
     <div class="container mt-5">
-      <div class="row align-items-start">
+      <div class="my-row row align-items-start">
         <h1 class="fs-1 text-center">Transform experience across all
           stakeholders</h1>
         <div class="col buttons-section py-4">
@@ -550,136 +560,144 @@
   <div class="bg-light py-5 mt-5">
     <div class="container mt-5 ps-5 pe-5" id="plans">
       <h1 class="text-center">Plans</h1>
-      <div class="row align-items-start text-center">
+      <div class="my-row row align-items-start text-center">
         <div class="col">
           <div class=" bg-light shadow-lg p-3  bg-body rounded plan-sub-col">
-  
+
             <h3 class="text-start card-title">Basic</h3>
             <p class="text-start card-subtitle mb-3"> free</p>
-  
-  
+
+
             <div class="fs-6">
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                One Month Free Trial
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                One Admin Panel
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Unlimited Student Registration
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Unlimited Teacher Rgistration
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Multiple content type support
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Whitelabelling Solution
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
-              </div>
-              <div>
-                <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Multiple language support
               </div>
               <button class="btn btn-primary rounded-pill plan-btn mt-4" type="button">Get Started</button>
             </div>
           </div>
         </div>
-  
+
         <div class="col">
           <div class=" bg-light shadow-lg p-3  bg-body rounded plan-sub-col">
-  
+
             <h3 class="text-start card-title">Advanced</h3>
             <p class="text-start card-subtitle mb-3"> Paid Plan</p>
-  
-  
+
+
             <div class="fs-6">
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                3 Admin User
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Unlimited Student Registration
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Unlimited Teacher Rgistration
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Multiple content type support
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Whitelabelling Solution
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Offline access for users
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Dedicated Customer Support
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                SSL for your custom domain
+              </div>
+              <div>
+                <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
+                Unlimited email support
               </div>
               <button class="btn btn-success rounded-pill plan-btn mt-4" type="button">Contact Sales</button>
             </div>
           </div>
         </div>
-  
+
         <div class="col">
           <div class=" bg-light shadow-lg p-3  bg-body rounded plan-sub-col">
-  
+
             <h3 class="text-start card-title">Pro</h3>
             <p class="text-start card-subtitle mb-3"> Comming soon</p>
-  
-  
+
+
             <div class="fs-6">
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                10 Admin User
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Unlimited Student Registration
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Unlimited Teacher Rgistration
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Multiple content type support
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Whitelabelling Solution
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Offline access for users
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                Dedicated Customer Support
               </div>
               <div>
                 <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
-                Teachmint Application for teachers and students
+                SSL for your custom domain
+              </div>
+              <div>
+                <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
+                Success Manager
+              </div>
+              <div>
+                <img src="https://img.icons8.com/emoji/48/000000/check-mark-emoji.png" width="5%" />
+                Offline access for users
               </div>
             </div>
             <button class="btn btn-success rounded-pill plan-btn mt-4" type="button">Contact Sales</button>
@@ -690,7 +708,7 @@
   </div>
 
   <!-- Demo booking form code -->
-  <div class="bg-light  " id="book-demo">
+  <div class="bg-light" id="book-demo">
     <div class="container mycontainer1 mt-0">
       <div class="row align-items-start">
 
@@ -737,18 +755,18 @@
 
 
   <!-- footer code-->
-  <div class="bg-dark text-light text-center p-5">
+  <div class="diff-color text-light text-center p-5">
     <div class="container">
       <div class="row align-items-start">
         <div class="col ">
           <div class="first-sec">
             <h1 class="fs-1">HEXALEARNER</h1>
             <div class="d-flex justify-content-center text-start mt-3">
-              <p>Teachmint is an education infrastructure provider and India’s largest teaching platform.</p>
+              <p>Its a Internet Based Education Learning Portal. HexaLerner is available in both website and mobile
+                application versions.</p>
             </div>
             <div>
-              <a
-                href=" https://www.linkedin.com/search/results/all/?keywords=hexadigi%20software%20pvt.%20ltd.&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=c257a078-c010-4bdf-82c7-94832e8ecc36&sid=xo!">
+              <a href="https://www.linkedin.com/company/hexadigi-software/mycompany/">
                 <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40"
                   viewBox="0 0 172 172" style=" fill:#000000;">
                   <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -765,7 +783,7 @@
                 </svg>
               </a>
 
-              <a href="">
+              <a href="https://www.facebook.com/hexadigisoft">
                 <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40"
                   viewBox="0 0 172 172" style=" fill:#000000;">
                   <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -782,7 +800,7 @@
                 </svg>
               </a>
 
-              <a href="">
+              <a href="https://www.instagram.com/hexadigi/">
                 <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="40"
                   viewBox="0 0 172 172" style=" fill:#000000;">
                   <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -799,7 +817,7 @@
                 </svg>
               </a>
 
-              <a href="">
+              <a href="https://twitter.com/hexadigi">
                 <svg class="m-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
                   viewBox="0 0 172 172" style=" fill:#000000;">
                   <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -841,12 +859,18 @@
             <br>
             <br>
             <a href="">
-              
+
+              Features
+            </a>
+            <br>
+            <br>
+            <a href="">
+
               Blogs
             </a>
           </div>
         </div>
-        
+
         <hr class="hide-for-desk">
         <div class="col mob-footer">
           <div class="first-sec">
@@ -898,6 +922,10 @@
         </div>
       </div>
     </div>
+    <hr>
+    <p class="text-center">
+      Copyright @ 2021 HexaLearner, Powered by Hexadigi All Rights Reserved
+    </p>
   </div>
   <!-- <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
