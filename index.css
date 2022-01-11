@@ -1,3 +1,23 @@
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  border-radius: 50%;
+  transition: opacity .6s ease;
+}
+
 .body {
   background-color: #e6f0fc;
   font-family: "Poppins";
@@ -14,11 +34,20 @@
 .has-text-justify {
   text-align: justify !important;
 }
-
+.mycontainer-2{
+  width: 80%;
+  margin: auto;
+}
+.l-margin{
+  margin-left: 20%;
+}
+.l-margin-10{
+  margin-left: 12%;
+}
 .get-started-free {
   background-color: #ed4726;
   color: #ffffff;
-  width: 100%;
+  /* width: 100%; */
 }
 .last-item {
   margin-right: 100px;
@@ -121,6 +150,10 @@
   margin: auto;
   margin-top: 5%;
 }
+.demo-btn{
+  background-color: #ed4726;
+  width: 100%;
+}
 .plan-btn {
   width: 100%;
 }
@@ -162,6 +195,7 @@ a {
   position: fixed;
   background-color: #071a2d;
   width: 100%;
+  z-index: 999;
 }
 .float {
   position: fixed;
