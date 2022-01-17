@@ -13,9 +13,9 @@
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  opacity: .5;
+  opacity: 0.5;
   border-radius: 50%;
-  transition: opacity .6s ease;
+  transition: opacity 0.6s ease;
 }
 
 .body {
@@ -34,14 +34,14 @@
 .has-text-justify {
   text-align: justify !important;
 }
-.mycontainer-2{
+.mycontainer-2 {
   width: 80%;
   margin: auto;
 }
-.l-margin{
+.l-margin {
   margin-left: 20%;
 }
-.l-margin-10{
+.l-margin-10 {
   margin-left: 12%;
 }
 .get-started-free {
@@ -85,7 +85,7 @@
   color: #38b6ff;
 }
 .section.is-large {
-  padding: 5rem 2rem;
+  padding: 5rem 0rem;
 }
 .h1 {
   font-size: 40px;
@@ -131,9 +131,8 @@
   height: auto;
   border-radius: 50%;
 }
-a:hover{
+a:hover {
   color: white;
-
 }
 .icon {
   width: 2%;
@@ -154,11 +153,11 @@ a:hover{
   margin: auto;
   margin-top: 5%;
 }
-.demo-btn{
+.demo-btn {
   background-color: #ed4726;
   width: 100%;
 }
-.demo-btn:hover{
+.demo-btn:hover {
   background-color: #ed4726;
 }
 .plan-btn {
@@ -240,7 +239,7 @@ a {
 
   .about-us {
     width: 90%;
-    margin:auto;
+    margin: auto;
   }
   .logo {
     margin-left: 2px;
@@ -306,7 +305,7 @@ a {
   .hide-for-desk {
     display: block;
   }
-  
+
   .icon {
     width: 10%;
   }
